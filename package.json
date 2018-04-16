@@ -1,0 +1,21 @@
+{
+  "name": "application_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^1.7.4",
+    "express": "^4.16.3",
+    "g": "^2.0.1",
+    "jsonwebtoken": "^8.2.1",
+    "mongoclient": "^1.0.3",
+    "mongoose": "^5.0.14",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3"
+  }
+}

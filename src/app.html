@@ -1,0 +1,267 @@
+<html>
+<head>
+<script type="text/javascript" src="validate.js" onsubmit="return(validate.js)"></script>
+<link rel="stylesheet" href="app.css">
+</head>
+<body> 
+
+    <form method="post" action="/submit" >
+
+<table cellpadding="0" cell spacing="5" width="20%" bgcolor="99FFFF" align="center" >
+
+<th colspan=2>
+<b>New Registration </b></font></center>
+</th>
+
+
+<tr>
+<td colspan="1">Your Name</td>
+<td><input type=text name="firstName" id="textname" size="30" placeholder="First Name" required></td>
+<td><input type=text name="middleName" id="textname" size="30" placeholder="Middle Name"></td>
+<td><input type=text name="lastName" id="textname" size="30" placeholder="Last Name" required></td>
+</tr>
+
+<td>Father's Name</td>
+<td><input type="text" name="fathername" id="fathername" size="30" placeholder="Father Name" required></td>
+</tr>
+
+<tr>
+    <td>Gender</td>
+    <td><input type="radio" name="gender" value="male" size="10">Male
+    <input type="radio" name="gender" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+    <td>Employeed with Us Current or Before</td>
+    <td><input type="radio" name="emp" value="Yes" size="10">Yes
+    <input type="radio" name="emp" value="No" size="10">NO</td>
+</tr>
+
+<tr>
+<tr>
+<td>DOB</td>
+<td><input type="date"  name="dob" id="dob" size="30"></td>
+</tr>
+
+<tr>
+<td>MobileNo</td>
+<td><input type="tel" name="mobileno" id="mobileno" size="30" pattern="[789][0-9]{9}"></td>
+</tr>
+
+<tr>
+    <td>Email Id</td>
+    <td><input type="email" name="emailid" id="emailid" size="30"></td>
+</tr>
+
+<tr>
+    <td>Present Address</td>
+    <td><textarea type="text" name="presentaddress"
+    id="personaladdress" size="30">
+</textarea>
+</td>
+</tr>
+
+<tr>
+    <td>City</td>
+    <td>
+    <input type="text" name="city" id="city" size="30">
+    </td>
+</tr>
+
+<tr>
+        <td>Postal Code</td>
+        <td>
+        <input type="text" name="postal" id="postal" size="30">
+        </td>
+    </tr>
+
+    <tr>
+            <td> State</td>
+        <td>
+                <select id="state" name="state">
+                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                        <option value="Daman and Diu">Daman and Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Orissa">Orissa</option>
+                        <option value="Pondicherry">Pondicherry</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttaranchal">Uttaranchal</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="West Bengal">West Bengal</option>
+                </select>
+        </td>
+        </tr>
+
+<tr>
+    <td>Height</td>
+<td >
+        <select id="height" name="feet" >
+                <option value="-1" selected>Feet</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                
+        </select> 
+    </td>
+    <td>
+        <select id="height" name="inch" >
+                <option value="-1" selected>Inches</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option><option value="0">0</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+               
+        </select>
+</td>
+</tr>
+
+<tr>
+        <td>Weight(In KG)</td>
+        <td>
+        <input type="text" name="weight" id="weight" size="30">
+        </td>
+    </tr>
+
+    <tr>
+            <td>Education</td>
+        <td>
+                <select id="education" name="education" >
+                        <option value="Primary" selected>Primary</option>
+                        <option value="8th Pass">8th Pass</option>
+                        <option value="10th Pass">10th Pass</option>
+                        <option value="12th Pass">12th Pass</option>
+                        <option value="Graduate">Graduate</option>
+                        <option value="Graduate +">Graduate</option>
+                </select> 
+            </td>      
+<tr>
+<tr>
+    <td>Languages Known</td>
+    <td>
+        <textarea type="text" name="lang" id="lang" rows="3" size="10"></textarea>
+    </td>
+</tr>
+
+<tr>
+<td>Registration Type</td>
+<td><select name="reg" id="regType">
+<option value="Self" selected>Self</option>
+<option value="Wish Center">Wish Center</option>
+<option value="Referred By">Referred By</option>
+</select></td>
+</tr>
+
+<tr>
+<td>How did you come to know about Us</td>
+<td><select name="knowus" id="knowUs">
+<option value="Employeement Center" selected>Employeement center</option>
+<option value="Friend">Friend</option>
+<option value="Gram Panchayat">Gram Panchayat</option>
+<option value="Job Fair">Job Fair</option>
+<option value="Skill Partner">Skill Partner</option>
+<option value="Web Site">Web Site</option>
+<option value="Any Other Sources">Any Other Source</option>
+</select></td>
+
+</tr>
+<tr>
+    <td></td>
+<td><input colspan="2" type="reset"></td>
+
+</tr>
+<br>
+<tr></tr>
+<th colspan=2>
+    Apply For Job
+</th>
+<tr>
+    <td>Services
+    <select name="service" id="service">
+        <option value="" selected></option>
+        <option value="Lady Guard">Lady Guard</option>
+        <option value="Security Guard">Security Guard</option>
+        </select>
+    </td>
+    <td>Location
+    <select name="location" id="location">
+        <option value="Ahmedabad" selected>Ahmedabad</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Delhi">Delhi</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><input type="checkbox" required>I have read the <a href="terms&conditions">terms & conditions </a>and agree to them</td>
+
+</tr>
+<tr>
+    <td></td>
+<td colspan="2"><input type="submit" value="Submit Form" />
+    <a href="mailto:saibhavani530@gmail.com"></a></td>
+</tr>
+</table>
+</form>
+</body>
+<style>
+      
+    form textarea {
+        float: left;
+        width: 300px;
+        height: 50px;
+    }
+    
+    table{
+        width: 100%;
+        height: 100%;
+        column-width: 20% ;
+        background-color: rgb(238, 235, 235);
+    }
+
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+        column-width: auto;
+    }
+
+    th {
+        font-size: 20px;
+    }
+
+</style>
+</html>

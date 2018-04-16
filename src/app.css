@@ -1,0 +1,21 @@
+   
+    form textarea {
+    float: left;
+    width: 300px;
+    height: 50px;
+    }
+    
+    [type="submit"] {
+    clear: left;
+    margin: 20px 0 0 230px;
+    font-size:18px
+    }
+    
+    p {
+    margin-left: 70px;
+    font-weight: bold;
+    }
+   
+    body{
+        background-color: black;
+    }
